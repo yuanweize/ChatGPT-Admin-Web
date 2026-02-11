@@ -12,6 +12,9 @@ on:
       synchronize
     ]
 
+permissions:
+  contents: write
+
 jobs:
   test:
     name: Build and Test
