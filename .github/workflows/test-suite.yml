@@ -26,6 +26,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: upstream
 
       - name: Cache turbo build setup
         uses: actions/cache@v3
